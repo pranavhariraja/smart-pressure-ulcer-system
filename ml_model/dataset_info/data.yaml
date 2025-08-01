@@ -1,0 +1,6 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 5
+names: ['NonPU', 'Stage1', 'Stage2', 'Stage3', 'Stage4']

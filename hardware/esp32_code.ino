@@ -34,7 +34,7 @@ void loop() {
     currentPressure1 = force1 / area_m2;
 
     int fsrValue2 = analogRead(fsrPin2);
-    float force2 = (fsrValue2 - 440) * 0.025;
+    float force2 = (fsrValue2) * 0.025;
     if (force2 < 0) force2 = 0;
     currentPressure2 = force2 / area_m2;
 
